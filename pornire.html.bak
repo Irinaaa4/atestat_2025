@@ -172,7 +172,7 @@
 		 toți cei interesați de moștenirea sa culturală. Indiferent dacă ești student, profesor, cercetător sau pur
 		 și simplu pasionat de literatură, aici vei găsi informații valoroase despre una dintre cele mai 
 		 mari figuri ale culturii românești.</td> 
-            <td><img src="imagini/pornire/img3p.jpg" class="img3"></td>
+            <td><img src="imagini/img3p.jpg" class="img3"></td>
          </tr>
     </table>
 	
@@ -185,7 +185,7 @@
 	<table class="table">
     <tr>
         <td style="width: 30%; text-align: left;">
-            <img src="imagini/pornire/img4p.jpg" class="img4" style="width:400px;">
+            <img src="imagini/img4p.jpg" class="img4" style="width:400px;">
         </td>
         
         <td style="text-align: justify; vertical-align: middle;">
@@ -211,7 +211,7 @@
 			precum <i style="color: #509250">Viața lui Mihai Eminescu</i> și <i style="color: #509250">Viața lui Ion Creangă</i>, oferind perspective valoroase asupra creației lor.<a class="a" href="titlu.html" target="continut">
 			<!--Legatura catre opere_literare.html-->
                 <b class="jost" style="color: #1a291a"><u><b>Apasă aici pentru mai multe detalii</b></u></b></p></td> 
-            <td><img src="imagini/pornire/img5p.jpg" class="img3" ></td>
+            <td><img src="imagini/img5p.jpg" class="img3" ></td>
          </tr>
     </table>
 
@@ -221,7 +221,7 @@
 	<table class="table">
     <tr>
         <td style="width: 30%; text-align: left;">
-            <img src="imagini/pornire/img6p.jpg" class="img3" style="width:300px;">
+            <img src="imagini/img6p.jpg" class="img3" style="width:300px;">
         </td>
         
         <td style="text-align: justify; vertical-align: middle;">
@@ -248,7 +248,7 @@
 			 cititorilor o perspectivă captivantă asupra epocilor pe care le descrie.<a class="a" href="titlu.html" target="continut">
 			<!--Legatura catre romane.html-->
                 <b class="jost" style="color: #1a291a"><u><b>Apasă aici pentru mai multe detalii</b></u></b></p></td> 
-            <td><img src="imagini/pornire/img5p.jpg" class="img3"></td>
+            <td><img src="imagini/img5p.jpg" class="img3"></td>
          </tr>
     </table>
 	
@@ -258,7 +258,7 @@
 	<table class="table">
     <tr>
         <td style="width: 30%; text-align: left;">
-            <img src="imagini/pornire/img7p.jpg" class="img3" style="width:200px;">
+            <img src="imagini/img7p.jpg" class="img3" style="width:200px;">
         </td>
         
         <td style="text-align: justify; vertical-align: middle;">
@@ -287,7 +287,7 @@
 			<a class="a" href="titlu.html" target="continut">
 			<!--Legatura catre eseuri_si_publicistica.html-->
                 <b class="jost" style="color: #1a291a"><u><b>Apasă aici pentru mai multe detalii</b></u></b></p></td> 
-            <td><img src="imagini/pornire/img8p.png" class="img3"></td>
+            <td><img src="imagini/img8p.png" class="img3"></td>
          </tr>
     </table>
 	
@@ -296,7 +296,7 @@
 	<table class="table">
     <tr>
         <td style="width: 30%; text-align: left;">
-            <img src="imagini/pornire/img9p.jpg" class="img3" style="width:200px;">
+            <img src="imagini/img9p.jpg" class="img3" style="width:200px;">
         </td>
         
         <td style="text-align: justify; vertical-align: middle;">
@@ -322,7 +322,7 @@
 			 și gândirea lui Călinescu continuă să inspire literatura română contemporană.</i><a class="a" href="titlu.html" target="continut">
 			<!--Legatura catre opere_literare.html-->
                 <b class="jost" style="color: #1a291a"><u><b>Apasă aici pentru mai multe detalii</b></u></b></p></td> 
-            <td><img src="imagini/pornire/img10p.jpg" class="img3"></td>
+            <td><img src="imagini/img10p.jpg" class="img3"></td>
          </tr>
     </table>
 	
@@ -336,7 +336,7 @@
 			<a class="a" href="titlu.html" target="continut">
 			<!--Legatura catre resurse.html-->
                 <b class="jost" style="color: #1a291a"><u><b>Apasă aici pentru mai multe detalii</b></u></b></p></td> 
-            <td><img src="imagini/pornire/img11p.jpg" class="img4"style="width:200px"></td>
+            <td><img src="imagini/img11p.jpg" class="img4"style="width:200px"></td>
          </tr>
     </table>
 	

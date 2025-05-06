@@ -38,8 +38,7 @@
         left: 0vh;
         width: 145px;
     }
-	</style>
-	<style>
+	
 	 .video-bg {
     position: fixed;
     top: 0;

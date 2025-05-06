@@ -94,7 +94,7 @@
     <a href="eseuri_si_publicistica.html" target='continut'><button class='butoane_meniu jost-buton'><b>Eseuri si publicistica</b></button></a><br><br>
     <a href="citate_celebre.html" target='continut'><button class='butoane_meniu jost-buton'><b>Citate Celebre</b></button></a><br><br>
     <a href="impact_si_mostenire.html" target='continut'><button class='butoane_meniu jost-buton'><b>Impact si mostenire</b></button></a><br><br>
-    <a href="galerie_foto.html" target='continut'><button class='butoane_meniu jost-buton'><b>Galerie foto</b></button></a><br><br>
+    <a href="sablon.html" target='continut'><button class='butoane_meniu jost-buton'><b>Galerie foto</b></button></a><br><br>
     <a href="surse.html" target='continut'><button class='butoane_meniu jost-buton'><b>Resurse</b></button></a><br><br>
     <a href="contact.html" target='continut'><button class='butoane_meniu jost-buton'><b>Contact</b></button></a><br><br>
   </nav>

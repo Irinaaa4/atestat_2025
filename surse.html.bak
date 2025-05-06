@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+<head>
+    <meta charset="utf-8">
+    <title>Pornire</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+
+        .jost {
+            font-family: "Jost", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            color: #1e391e;
+        }
+        </style>
+      
+<style>
+    .img1
+    {
+        position:absolute;
+        bottom:72vh;
+        right:0vh;
+        width:145px;
+
+    }
+</style>
+
+<style>
+    .img2 {
+        position: absolute;
+        bottom: 72vh;
+        left: 0vh;
+        width: 145px;
+    }
+	</style>
+	<style>
+	 .video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1; 
+  }
+</style>
+
+
+	
+	<style>
+		a 
+		{
+            color: #1e391e;
+        }
+        a:visited 
+		{
+            color: #f8ffde;
+        }
+
+        a:hover 
+		{
+            color:#c8d0aa;
+        }
+
+        a:active 
+		{
+            color: #458c45;
+        }
+</style>
+
+
+</head>
+
+<body style="background-color: #f8ffde">
+<!--Titlu Pagina-->
+	<h1 class='jost' style="text-align:center; font-size:10vh">Resurse</h1>
+    <hr style="border-width: 2px; border-color: #1e391e ">
+    <img src="imagini/img1p.png" class="img1">
+    <img src="imagini/img2p.png" class="img2">
+	
+	 <video class="video-bg" autoplay muted loop playsinline>
+    <source src="video/fundal_pagini.mp4" type="video/mp4">
+    Browserul tău nu suportă videoclipuri HTML5.
+  </video>
+  
+<ul style="list-style-type:square; padding-left:4vh;">
+  <li>
+    <p class="jost" style="text-indent:2vh; text-align:justify; margin:0.5vh; font-size:2.7vh">
+      <a href="https://ro.wikipedia.org/wiki/George_Călinescu" target="_blank">Wikipedia – George Călinescu</a>
+    </p>
+  </li>
+  <li>
+    <p class="jost" style="text-indent:2vh; text-align:justify; margin:0.5vh; font-size:2.7vh">
+      <a href="https://www.diacronia.ro/ro/indexing/details/A28515" target="_blank">Diacronia.ro – Studii literare despre Călinescu</a>
+    </p>
+  </li>
+  <li>
+    <p class="jost" style="text-indent:2vh; text-align:justify; margin:0.5vh; font-size:2.7vh">
+      <a href="https://www.ibn.idsi.md/" target="_blank">Institutul Bibliografic Național – IBN.md</a>
+    </p>
+  </li>
+  <li>
+    <p class="jost" style="text-indent:2vh; text-align:justify; margin:0.5vh; font-size:2.7vh">
+      <a href="https://www.didactic.ro/" target="_blank">Didactic.ro – Resurse educaționale</a>
+    </p>
+  </li>
+  <li>
+    <p class="jost" style="text-indent:2vh; text-align:justify; margin:0.5vh; font-size:2.7vh">
+      <a href="https://argesexpres.ro" target="_blank">Argeș Expres – Articole culturale</a>
+    </p>
+  </li>
+  <li>
+    <p class="jost" style="text-indent:2vh; text-align:justify; margin:0.5vh; font-size:2.7vh">
+      <a href="https://www.librariaonline.ro/" target="_blank">LibrariaOnline.ro – Lucrări publicate</a>
+    </p>
+  </li>
+  <li>
+    <p class="jost" style="text-indent:2vh; text-align:justify; margin:0.5vh; font-size:2.7vh">
+      <a href="https://inst-calinescu.ro" target="_blank">Institutul de Istorie și Teorie Literară „G. Călinescu”</a>
+    </p>
+  </li>
+  <li>
+    <p class="jost" style="text-indent:2vh; text-align:justify; margin:0.5vh; font-size:2.7vh">
+      <a href="https://www.agerpres.ro/documentare/2022/06/19/documentar-george-calinescu-123-de-ani-de-la-nastere--937995" target="_blank">AGERPRES – Documentar aniversar 123 ani</a>
+    </p>
+  </li>
+  <li>
+    <p class="jost" style="text-indent:2vh; text-align:justify; margin:0.5vh; font-size:2.7vh">
+      <a href="https://ro.scribd.com/" target="_blank">Scribd – Fragmente din „Universul poeziei”</a>
+    </p>
+  </li>
+  <li>
+    <p class="jost" style="text-indent:2vh; text-align:justify; margin:0.5vh; font-size:2.7vh">
+      <a href="https://www.bibnat.ro" target="_blank">Biblioteca Națională a României</a>
+    </p>
+  </li>
+</ul>
+
+	
+	
+	<!--Contact-->
+	
+<hr style="height: 3px; background-color: #1e391e; border: none;">
+<hr style="height: 3px; background-color: #1e391e; border: none;">
+	<p class="jost" style="text-align:center; margin:1vh; font-size:2vh">Contact</p>
+	<p class="jost" style="text-align:center; margin:1vh; font-size:2vh">Irina Martin&trade;</p>
+	<p class="jost" style="text-align:center; margin:1vh; font-size:2vh">0712 345 678</p>
+	<p class="jost" style="text-align:center; margin:1vh; font-size:2vh">martin.irina.ioana@cnmvslobozia.ro</p>
+	
+	
+</body>
+ </html>

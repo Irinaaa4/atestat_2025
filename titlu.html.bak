@@ -49,7 +49,7 @@
 <body>
 
 <video class="video-bg" autoplay muted loop playsinline>
-  <source src="video/video_fundal.mp4" type="video/mp4">
+  <source src="video/fundal.mp4" type="video/mp4">
   Browserul tău nu suportă videoclipuri HTML5.
 </video>
 

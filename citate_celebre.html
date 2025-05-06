@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <title>Pornire</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <style>
+    .jost {
+            font-family: "Jost", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            color: #1e391e;
+    }
+
+    body {
+      background-color: #f8ffde;
+      margin: 0;
+      overflow-x: hidden;
+    }
+
+    .img1 {
+      position: absolute;
+      bottom: 72vh;
+      right: 0;
+      width: 145px;
+    }
+
+    .img2 {
+      position: absolute;
+      bottom: 72vh;
+      left: 0;
+      width: 145px;
+    }
+
+    .video-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 10vh;
+    }
+
+    .carousel-container {
+      position: relative;
+      width: 70vw;
+      margin: 10vh auto;
+      background-color: rgba(255, 255, 255, 0.6);
+      border-radius: 20px;
+      padding: 8vh 5vw;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(30, 57, 30, 0.3);
+    }
+
+    .carousel-quote {
+      font-size: 3vh;
+      font-style: italic;
+      color: #509250;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .arrow {
+      font-size: 6vh;
+      cursor: pointer;
+      color: #509250;
+      user-select: none;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 10;
+    }
+
+    .left-arrow {
+      left: -5vh;
+    }
+
+    .right-arrow {
+      right: -5vh;
+    }
+
+    .contact-section {
+      text-align: center;
+      margin-bottom: 5vh;
+    }
+
+    .contact-section p {
+      font-size: 2vh;
+      margin: 1vh;
+    }
+  </style>
+</head>
+<body class="jost">
+
+  <video class="video-bg" autoplay muted loop playsinline>
+    <source src="video/fundal_pagini.mp4" type="video/mp4">
+    Browserul tău nu suportă videoclipuri HTML5.
+  </video>
+
+  <h1 class="jost">Citate celebre</h1>
+  <hr style="border-width: 2px; border-color: #1e391e">
+  <img src="imagini/img1p.png" class="img1">
+  <img src="imagini/img2p.png" class="img2">
+
+  <div class="carousel-container jost">
+    <div class="arrow left-arrow" onclick="prevQuote()">&#10094;</div>
+    <div class="carousel-quote" id="quote">
+      „Critica nu este un capriciu, nu este o joacă, ci un lucru serios.”
+    </div>
+    <div class="arrow right-arrow" onclick="nextQuote()">&#10095;</div>
+  </div>
+
+  <hr style="height: 3px; background-color: #1e391e; border: none;">
+  <hr style="height: 3px; background-color: #1e391e; border: none;">
+  <div class="contact-section jost">
+    <p><b style="color:#509250">Irina Martin&trade;</b></p>
+    <p>0712 345 678</p>
+    <p>martin.irina.ioana@cnmvslobozia.ro</p>
+  </div>
+
+  <script>
+    const quotes = [
+      "„Critica nu este un capriciu, nu este o joacă, ci un lucru serios.”",
+      "„Literatura este o luptă a ideilor în fața realității.”",
+      "„Opera de artă este un univers închis, care nu face apel la nimic din afară.”",
+      "„A citi o carte este ca și cum ai da un examen al conștiinței tale.”",
+      "„Cine nu cunoaște istoria literaturii române nu înțelege esența culturii naționale.”"
+    ];
+
+    let current = 0;
+    const quoteElement = document.getElementById("quote");
+
+    function updateQuote() {
+      quoteElement.style.opacity = 0;
+      setTimeout(() => {
+        quoteElement.textContent = quotes[current];
+        quoteElement.style.opacity = 1;
+      }, 300);
+    }
+
+    function prevQuote() {
+      current = (current - 1 + quotes.length) % quotes.length;
+      updateQuote();
+    }
+
+    function nextQuote() {
+      current = (current + 1) % quotes.length;
+      updateQuote();
+    }
+  </script>
+
+</body>
+</html>

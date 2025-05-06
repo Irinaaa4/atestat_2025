@@ -38,17 +38,6 @@
         left: 0vh;
         width: 145px;
     }
-	</style>
-	<style>
-	 .video-bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    object-fit: cover;
-    z-index: -1; 
-  }
 </style>
 
 
@@ -79,25 +68,31 @@
 
 <body style="background-color: #f8ffde">
 <!--Titlu Pagina-->
-	<h1 class='jost' style="text-align:center; font-size:10vh">Titlu pagina</h1>
+	<h1 class='jost' style="text-align:center; font-size:10vh">Contact</h1>
     <hr style="border-width: 2px; border-color: #1e391e ">
     <img src="imagini/img1p.png" class="img1">
     <img src="imagini/img2p.png" class="img2">
 	
-	 <video class="video-bg" autoplay muted loop playsinline>
+	<video class="video-bg" autoplay muted loop playsinline>
     <source src="video/fundal_pagini.mp4" type="video/mp4">
     Browserul tău nu suportă videoclipuri HTML5.
   </video>
 	
+	<p class="jost" style="text-indent:2vh; text-align:justify; margin:0.5vh; font-size:2.7vh">
+	Toate materialele prezentate pe acest site, inclusiv dar fără a se limita la texte
+	, analize literare, imagini, citate din operele lui George Călinescu și alte elemente
+	vizuale sau auditive, sunt protejate de drepturi de autor și alte drepturi de 
+	proprietate intelectuală. Acestea sunt deținute de Martin Irina-Ioana sau de furnizorii săi de licență.
+	</p>
 	
 	<!--Contact-->
 	
 <hr style="height: 3px; background-color: #1e391e; border: none;">
 <hr style="height: 3px; background-color: #1e391e; border: none;">
-	<p class="jost" style="text-align:center; margin:1vh; font-size:2vh">Contact</p>
-	<p class="jost" style="text-align:center; margin:1vh; font-size:2vh">Irina Martin&trade;</p>
-	<p class="jost" style="text-align:center; margin:1vh; font-size:2vh">0712 345 678</p>
-	<p class="jost" style="text-align:center; margin:1vh; font-size:2vh">martin.irina.ioana@cnmvslobozia.ro</p>
+	<p class="jost" style="text-align:center; margin:1vh; font-size:3vh">Contact</p>
+	<p class="jost" style="text-align:center; margin:1vh; font-size:3vh">Irina Martin&trade;</p>
+	<p class="jost" style="text-align:center; margin:1vh; font-size:3vh">0712 345 678</p>
+	<p class="jost" style="text-align:center; margin:1vh; font-size:3vh">martin.irina.ioana@cnmvslobozia.ro</p>
 	
 	
 </body>
